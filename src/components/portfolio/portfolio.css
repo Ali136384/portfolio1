@@ -1,0 +1,94 @@
+.portfolio {
+  position: relative;
+}
+.prgoress {
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding: 50px;
+  text-align: center;
+  color: orange;
+  font-size: 36px;
+}
+@media (max-width: 767px) {
+  .prgoress h1 {
+    font-size: 56px;
+    margin-top: 31px;
+  }
+}
+.prgress-bar {
+  height: 10px;
+  background: white;
+}
+
+.container-projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.container-projects .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+@media (max-width: 767px) {
+  .container-projects .container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: normal;
+  }
+}
+
+.container-projects img {
+  height: 270px;
+}
+
+@media (max-width: 767px) {
+  .container-projects img {
+    height: 140px;
+  }
+}
+.container-projects .text-project {
+  width: 40%;
+}
+
+.container-projects .text-project h2 {
+  margin-bottom: 20px;
+  font-size: 45px;
+  white-space: nowrap;
+
+  font-weight: bolder;
+}
+.container-projects .text-project p {
+  margin-bottom: 20px;
+  font-size: 15px;
+  text-align: left;
+}
+@media (max-width: 767px) {
+  .container-projects .text-project p {
+    display: none;
+  }
+}
+.container-projects .text-project button {
+  border: none;
+  display: flex;
+  padding: 4px 25px;
+  margin-top: 25px;
+  background-color: orange;
+  border-radius: 10px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.container-projects .img {
+  width: 40%;
+}
+.container-projects .img img {
+  border-radius: 20px;
+}

@@ -1,0 +1,29 @@
+.navbar {
+  height: 100px;
+  margin-left: 90px;
+}
+.navbar .wrapper {
+  display: flex;
+  max-width: 1366px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 110px;
+  padding: 30px;
+}
+
+@media (max-width: 767px) {
+  .navbar .wrapper {
+    margin: 0;
+  }
+}
+.navbar .wrapper span {
+  font-weight: bold;
+}
+.navbar .wrapper .social {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.navbar .wrapper a img {
+  height: 20px;
+}
