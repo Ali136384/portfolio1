@@ -3,7 +3,7 @@ import { Navbar } from "./components/navbar/Navbar.jsx";
 import Parallax from "./components/parallax/Para.jsx";
 import { Sidebar } from "./components/sidebar/Sidebar.jsx";
 import Services from "./components/serv/Services.jsx";
-import Portfolio from "./components/portfolio/portfolio.jsx";
+import Portfolio from "./components/portfolio/Portfolio.jsx";
 import Contact from "./components/contact/Contact.jsx";
 import "./App.css";
 const App = () => {
